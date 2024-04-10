@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p id="materia1nombre">Nota Mate</p>
+        <input name="Mate" type="number" id="materia1" class="nota" onchange="comprobarValor(event)">
+        <p id="materia2nombre">Nota Lengua</p>
+        <input name="Lengua" type="number" id="materia2" class="nota" onchange="comprobarValor(event)">
+        <p id="materia3nombre">Nota EFSI</p>
+        <input name="EFSI" type="number" id="materia3" class="nota" onchange="comprobarValor(event)">
+    </form>
+    <br>
+    <button onclick="calcularPromedio()">Calcular promedio</button>
+    <button onclick="calcularMayor()">Mostrar mayor nota</button>
+    <div id="divmagico"></div>
+    <img id="foto"src="https://www.icegif.com/wp-content/uploads/icegif-2246.gif" alt="">
+
+    
+   <script src="script.js"></script>
+</body>
+</html>
